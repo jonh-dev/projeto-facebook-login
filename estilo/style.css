@@ -208,13 +208,9 @@ form select.nascimento{
     margin: 10px 5px;
 }
 
-.wd-100{
-    width: 100%;
-}
-
 .wd-100 a{
     text-decoration: none;
-    width: 90%;
+    width: 100%;
     display: block;
 }
 
@@ -392,4 +388,11 @@ footer .rodap{
         margin-bottom: 25px;
     }
 
+}
+
+@media screen and (max-width: 888px){
+    .wd-100 a{
+        display: inline-block;
+        width: 100%;
+    }
 }
