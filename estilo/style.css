@@ -170,7 +170,7 @@ form.criar-conta input[type=password]{
 }
 
 form.criar-conta input[type=submit]{
-    margin-top: 25px;
+    margin: 25px 0px;
     height: 40px;
     background: linear-gradient(#67ae55, #578843);
     color: white;
@@ -213,6 +213,7 @@ form select.nascimento{
 }
 
 .wd-100 a{
+    text-decoration: none;
     width: 90%;
     display: block;
 }
@@ -257,9 +258,7 @@ form select.nascimento{
 }
 
 div.endform{
-    display: inline-block;
     margin-top: 30px;
-    margin-bottom: -20px;
     font-size: 11px;
     font-weight: bold;
     color: #73767e;
@@ -355,7 +354,42 @@ footer .rodap{
         width: 100%;
     }
 
+    .wd-100{
+        text-align: center;
+    }
+
+    form select.nascimento{
+        float: none;
+        display: inline-block;
+    }
+
     .wd-100 a {
+        display: inline-block;
         width: 80%;
     }
+
+    .input-radio{
+        display: inline-block;
+        text-align: center;
+        margin: 5px;
+        width: 47%;
+        float: none;
+    }
+
+    .politicas{
+        display: inline-block;
+        text-align: justify;
+        margin-top: 15px;
+        margin-left: 50px;
+    }
+
+    .endform{
+        width: 100%;
+        text-align: center;
+    }
+
+    form.criar-conta input[type=submit]{
+        margin-bottom: 25px;
+    }
+
 }
