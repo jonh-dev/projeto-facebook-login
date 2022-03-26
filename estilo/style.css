@@ -59,12 +59,13 @@ form.form-login{
     color: white;
     font-weight: lighter;
     font-size: 14px;
-    margin-right: 15px;
+    margin-left: 7px;
 }
 
 form .form-element input[type=e-mail],
 form .form-element input[type=password]{
     margin-top: 4px;
+    margin-left: 7px;
     border: none;
     height: 20px;
     padding: 3px;
@@ -72,10 +73,12 @@ form .form-element input[type=password]{
 
 .form-element input[type=submit]{
     cursor: pointer;
-    border: 0;
+    font-weight: bold;
+    border: 1px solid rgba(0, 0, 0, 0.295);
+    border-radius: 4px;
     background-color: #5b98e7;
     color: white;
-    padding: 3px 5px;
+    padding: 3px 7px;
     margin-left: 3px;
 }
 
