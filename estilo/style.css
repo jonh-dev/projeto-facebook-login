@@ -1,0 +1,361 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: 'facebook' ;
+    src: url('../font/FACEBOLF.OTF') format('opentype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    background-color: #1877F2;
+    padding: 8px 0;
+}
+
+.logo{
+    float: left;
+    color: white;
+}
+
+.logo h2{
+    font-family: 'facebook', sans-serif;
+    margin-top: 15px;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+select:focus{
+    outline: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+form.form-login{
+    float: right;
+}
+
+.form-login .form-element{
+    display: inline-block;
+}
+
+.form-element p{
+    color: white;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+form .form-element input[type=e-mail],
+form .form-element input[type=password]{
+    margin-top: 4px;
+    border: none;
+    height: 20px;
+    padding: 3px;
+}
+
+.form-element input[type=submit]{
+    cursor: pointer;
+    border: 0;
+    background-color: #5b98e7;
+    color: white;
+    padding: 3px 5px;
+    margin-left: 3px;
+}
+
+.form-element input[type=submit]:hover{
+    background-color: #3a8bf5;
+}
+
+.esqueceu{
+    font-size: 12px;
+    margin-top: 6px;
+    margin-right: 110px;
+    text-align: right;
+    display: block;
+}
+
+.esqueceu a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.61);
+}
+
+section{
+    background: linear-gradient(white, #d3d8e8);
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+.img-globe{
+    float: left;
+    width: 60%;
+}
+
+.img-globe h3{
+    line-height: 1.5em;
+    font-size: 18px;
+    margin-top: -10px;
+    text-align: justify;
+    width: 80%;
+}
+
+.img-globe img{
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.abrir-conta{
+    width: 40%;
+    float: left;
+}
+
+.abrir-conta h2{
+    margin-top: -35px;
+    font-size: 35px;
+    color: black;
+}
+
+.abrir-conta h3{
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    margin-top: 10px;
+}
+
+form.criar-conta{
+    margin-top: 10px;
+}
+
+.wd-50{
+    padding: 0 5px;
+    width: 50%;
+    float: left;
+}
+
+.wd-100{
+    padding: 0 5px;
+    width: 100%;
+    float: left;
+}
+
+form.criar-conta input{
+    width: 100%;
+    margin-top: 8px;
+}
+
+form.criar-conta input[type=email],
+form.criar-conta input[type=text],
+form.criar-conta input[type=password]{
+    height: 40px;
+    border: 1px solid #a9c2e2;
+    padding-left: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+form.criar-conta input[type=submit]{
+    margin-top: 25px;
+    height: 40px;
+    background: linear-gradient(#67ae55, #578843);
+    color: white;
+    border: 2px solid rgba(0, 0, 0, 0.185);
+    max-width: 200px;
+    font-weight: bold;
+    font-size: 19px;
+    border-radius: 4px;
+}
+
+form.criar-conta input[type=submit]:hover{
+    background: linear-gradient(#60f33b, #358814);
+    color: white;
+}
+
+form .wd-100 h2{
+    margin-top: 10px;
+    color: #1d2129;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+form select.nascimento{
+    float: left;
+    margin-top: 5px;
+}
+
+.wd-100 .nasc{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.wd-100 select{
+    margin: 10px 5px;
+}
+
+.wd-100{
+    width: 100%;
+}
+
+.wd-100 a{
+    width: 90%;
+    display: block;
+}
+
+.wd-100 a p{
+    line-height: 1.5em;
+    color: #73767e;
+    font-size: 10px;
+}
+
+.input-radio{
+    margin: 12px 5px;
+    float: left;
+    width: 40%;
+}
+
+.input-radio h2{
+    margin-top: -10px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.input-radio input[type=radio]{
+    width: auto !important;
+    display: inline-block;
+    
+}
+
+.politicas{
+    margin-top: 7px;
+    color: #73767e;
+    width: 80%;
+    text-align: justify;
+    display: inline-block;
+    font-size: 9px;
+}
+
+.politicas a{
+    color: #1877F2;
+    text-decoration: none;
+}
+
+div.endform{
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #73767e;
+}
+
+.endform a{
+    text-decoration: none;
+    color: #1877F2;
+}
+
+footer{
+    padding: 30px 0;
+}
+
+footer a{
+    margin-right: 10px;
+    color: #365899;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+footer .center{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+footer .rodap2{
+    border: 0;
+    padding-top: 10px;
+}
+
+footer .rodap2 a{
+    margin-right: 15px;
+}
+
+footer .rodap{
+    color: #1877F2;
+    margin-top: 8px;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .logo{
+        width: 100%;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    form.form-login{
+        display: inline-block;
+        margin-top: 15px;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .esqueceu{
+        width: 100%;
+        text-align: center;
+        margin-left: 5px;
+    }
+
+    .form-login .form-element{
+        width: 100%;
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .form-element p{
+        color: white;
+        font-weight: lighter;
+        font-size: 14px;
+        margin-right: 15px;
+    }
+    
+    form .form-element input[type=e-mail],
+    form .form-element input[type=password]{
+        margin-top: 4px;
+        border: none;
+        width: 100%;
+        max-width: 400px;
+        height: 22px;
+        padding: 3px;
+    }
+
+    .img-globe{
+        display: none;
+    }
+
+    .abrir-conta{
+        width: 100%;
+    }
+
+    .wd-100 a {
+        width: 80%;
+    }
+}
