@@ -23,6 +23,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/)
+- [PHP](https://www.php.net/)
 
 
 
